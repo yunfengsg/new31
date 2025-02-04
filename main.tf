@@ -3,7 +3,7 @@ provider "aws" {
 }
 resource "aws_s3_bucket" "lambda_bucket" {
   bucket = "yyf-workflow"
-  force_destory = true
+  force_destroy = true
 }
 
 terraform {
